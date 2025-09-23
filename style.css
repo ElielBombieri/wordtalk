@@ -1,0 +1,205 @@
+:root {
+    --cor__principal: #063940;
+    --cor__secundaria: #ece1c3;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0%;
+}
+
+body{
+    size: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+    background-color: var(--cor__principal);
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--cor__secundaria);
+}
+
+.cabecalho__navabar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 15%;
+    gap: 15px;
+    padding: 0% 9%;
+}
+
+.cabecalho__navabar__componentes {
+    color: var(--cor__secundaria);
+    text-decoration: none;
+}
+
+.cabecalho__navabar__componentes:hover{
+    color: #348e91;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor__secundaria);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 1% 20%;
+    
+}
+
+.sobre__titulo {
+    color: var(--cor__principal);
+    text-align: center;
+    font-size: 30px;
+    padding: 5% 3%;
+}
+
+p {
+    font-size: 120%;
+    text-align: left;
+}
+
+.principios {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.principios__titulos {
+    padding: 1.5% 0%;
+    color: var(--cor__principal);
+}
+
+.profissionais__titulo {
+    color: var(--cor__principal);
+    text-align: center;
+    font-size: 30px;
+    padding: 5% 3%;
+}
+
+.profissionais__cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+.profissionais__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;  
+    height: auto; 
+
+}
+
+.profissionais__nome {
+    color: var(--cor__principal);
+}
+
+.profissionais__foto {
+    width: 180px;
+    height: auto;
+    border-color: var(--cor__principal);
+    border-style: solid;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos__titulo {
+    color: var(--cor__principal);
+    text-align: center;
+    font-size: 30px;
+    padding: 5% 3%;
+}
+
+.servicos__cursos{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos__curso__titulo{
+    font-size: 30px;
+    text-align: left;
+    color: var(--cor__principal);
+}
+
+.servicos__curso__fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 0%;
+    gap: 3%;
+}
+
+.servicos__curso__foto{
+    width: 300px;
+    height: auto;
+    border-style: none;
+    border-color: var(--cor__principal);
+    border-radius: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 2%;
+    background-color: var(--cor__principal);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ece1c3;
+    gap: 15px;
+
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contatos__link {
+    text-decoration: none;
+    color: #ece1c3;
+}
+
+.contato__logo {
+    width: 25px;
+    height: auto;
+    padding: 7px;
+    background-color: var(--cor__secundaria);
+    border-style: none;
+    border-radius: 30%;
+    border-width: 4px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 12px;
+}
+
+.contato__logo:hover{
+    background-color: #348e91;
+    border-radius: 100%;
+}
+
+.dedicatoria__texto{
+    font-style: italic;
+}
